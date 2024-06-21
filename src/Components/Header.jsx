@@ -1,4 +1,5 @@
 import { Stack, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,15 +19,21 @@ const Header = () => {
         Ankit Kumar Pandey
       </Text>
       <Stack direction="row" spacing="24px" justifyContent="center">
-        <Text fontSize="xl" color="white">
-          Home
-        </Text>
-        <Text fontSize="xl" color="white">
-          About
-        </Text>
-        <Text fontSize="xl" color="white">
-          Service
-        </Text>
+        <Link to="/">
+          <Text fontSize="xl" color="white">
+            Home
+          </Text>
+        </Link>
+        <Link to="/About">
+          <Text fontSize="xl" color="white">
+            About
+          </Text>
+        </Link>
+        <Link to="/Service">
+          <Text fontSize="xl" color="white">
+            Service
+          </Text>
+        </Link>
       </Stack>
     </Stack>
   );
