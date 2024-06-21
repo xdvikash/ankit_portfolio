@@ -29,7 +29,6 @@ const Home = () => {
         </Stack>
       </Stack>
       <Better/>
-      <Service/>
       <Works/>
       <Footer/>
     </Box>
