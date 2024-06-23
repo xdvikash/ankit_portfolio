@@ -16,7 +16,7 @@ const Header = () => {
       bgColor="#343a40"
     >
       <Text fontSize="2xl" color="orange" fontWeight="bold">
-        M/S Ankit Pandey
+      M/S Ankit Pandey Construction
       </Text>
       <Stack direction="row" spacing="24px" justifyContent="center">
         <Link to="/">
