@@ -8,6 +8,7 @@ const About = () => {
       <Text color="orange" fontSize="50px" textAlign="center" fontWeight="bold">
         About
       </Text>
+
       <Text color="white" px={10} fontWeight="bold" lineHeight="tall">
         Civil construction is a fundamental aspect of modern infrastructure,
         encompassing the design, building, and maintenance of essential
