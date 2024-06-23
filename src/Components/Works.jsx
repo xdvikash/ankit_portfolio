@@ -5,7 +5,7 @@ import Steppers from "./Steppers"
 const Works = () => {
     return(
         <Stack bgColor={'#343a40'}  color={'white'} p={8}>
-            <Text textAlign={'center'} color="orange" fontSize={35} direction={["column","column", "row"]}>How we Work</Text>
+            <Text textAlign={'center'} color="orange" fontSize={35} direction={["column","column", "row"]} fontWeight="bold">How we Work</Text>
             <Steppers/>
         </Stack>
     )
