@@ -35,7 +35,6 @@ const Home = () => {
         bg="rgba(0, 0, 0, 0.5)" /* Semi-transparent black background */
         p="4"
       >
-       
         <Stack direction="row" spacing="24px" justifyContent="center"></Stack>
       </Stack>
       <Better />
