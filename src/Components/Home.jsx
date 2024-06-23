@@ -1,4 +1,3 @@
-// Components/Home.js
 import { Box, Image, Stack } from "@chakra-ui/react";
 import img1 from "../assets/1.png";
 import Better from "./Better";
