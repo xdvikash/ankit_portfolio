@@ -12,7 +12,7 @@ const Footer = () => {
       direction={["column", "row"]}
       p={4}
     >
-      <Heading color={"orange"}>Ankit Kumar Pandey</Heading>
+      <Heading color={"orange"}>M/S Ankit Pandey</Heading>
       <VStack alignItems={"center"}>
         <Text fontWeight={"bold"}>Socials</Text>
         <HStack>

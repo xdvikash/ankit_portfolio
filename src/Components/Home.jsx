@@ -19,6 +19,7 @@ const Home = () => {
         height="100%"
         objectFit="cover"
         px={5}
+        p={2}
       />
       <Stack
         direction="column"
